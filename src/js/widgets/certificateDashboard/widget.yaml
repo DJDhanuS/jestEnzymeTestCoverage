@@ -1,0 +1,8 @@
+id: 'partner-cert-dashboard/dashboard'
+classification: public
+version: 1.0.3
+interface:
+  description: |
+    Selfservice tool for Partner Certificate management.
+
+main: './Dashboard'

@@ -1,0 +1,133 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2020-12-21T01:59:19.788Z",
+    "end": "2020-12-21T02:00:44.388Z",
+    "duration": 84600,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "18893820-846e-4744-8de6-dd7d519aaabd",
+      "title": "",
+      "fullFile": "cypress/integration/certDashboard/CertDashboard.spec.js",
+      "file": "cypress/integration/certDashboard/CertDashboard.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6998f0c7-a15b-4011-95c4-72f533be6446",
+          "title": "Certificate Dash End to End Testing",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Dashboard functionality",
+              "fullTitle": "Certificate Dash End to End Testing Dashboard functionality",
+              "timedOut": null,
+              "duration": 31650,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "// eslint-disable-next-line cypress/no-unnecessary-waiting\ncy.wait(12000);\ncy.get('div#app div:nth-child(1) > a > div > p:nth-child(1)').click();\ncy.get('div#app div:nth-child(2) > a > div > p:nth-child(1)').click();\ncy.get('div#app div:nth-child(3) > a > div > p:nth-child(1)').click();",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find element: `div#app div:nth-child(1) > a > div > p:nth-child(1)`, but never found it.",
+                "estack": "AssertionError: Timed out retrying: Expected to find element: `div#app div:nth-child(1) > a > div > p:nth-child(1)`, but never found it.\n    at Context.eval (https://federatesys.intuit.com/__cypress/tests?p=cypress/integration/certDashboard/CertDashboard.spec.js:25:8)",
+                "diff": null
+              },
+              "uuid": "fee3b083-de45-49ad-9252-14faad652571",
+              "parentUUID": "6998f0c7-a15b-4011-95c4-72f533be6446",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Search functionality",
+              "fullTitle": "Certificate Dash End to End Testing Search functionality",
+              "timedOut": null,
+              "duration": 31095,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "// eslint-disable-next-line cypress/no-unnecessary-waiting\ncy.wait(12000);\ncy.get('nav#cert-dash-navbar div:nth-child(2) span').click();\ncy.get('button#certificateID').click();\ncy.get('div#app a:nth-child(4)').click();\ncy.get('div#app input').type('Active'); // eslint-disable-next-line cypress/no-unnecessary-waiting\ncy.wait(5000);\ncy.get('div#app div.input-loader > div > button').click();\ncy.get('div#app tr:nth-child(2) > td:nth-child(5) > div > span:nth-child(1)').click();",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find element: `div#app tr:nth-child(2) > td:nth-child(5) > div > span:nth-child(1)`, but never found it.",
+                "estack": "AssertionError: Timed out retrying: Expected to find element: `div#app tr:nth-child(2) > td:nth-child(5) > div > span:nth-child(1)`, but never found it.\n    at Context.eval (https://federatesys.intuit.com/__cypress/tests?p=cypress/integration/certDashboard/CertDashboard.spec.js:39:8)",
+                "diff": null
+              },
+              "uuid": "30746d90-504b-42f8-9fd3-b64ee1e61663",
+              "parentUUID": "6998f0c7-a15b-4011-95c4-72f533be6446",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "fee3b083-de45-49ad-9252-14faad652571",
+            "30746d90-504b-42f8-9fd3-b64ee1e61663"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 62745,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "mochaFile": "reports/cypress/cypress-test-results-[hash].xml",
+        "reportDir": "reports/cypress",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}

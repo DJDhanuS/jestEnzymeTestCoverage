@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-12-21T01:59:19" tests="0" file="cypress/integration/certDashboard/CertDashboard.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Certificate Dash End to End Testing" timestamp="2020-12-21T01:59:19" tests="2" time="0.0000" failures="2">
+    <testcase name="Certificate Dash End to End Testing Dashboard functionality" time="0.0000" classname="Dashboard functionality">
+      <failure message="Timed out retrying: Expected to find element: `div#app div:nth-child(1) &gt; a &gt; div &gt; p:nth-child(1)`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `div#app div:nth-child(1) > a > div > p:nth-child(1)`, but never found it.
+    at Context.eval (https://federatesys.intuit.com/__cypress/tests?p=cypress/integration/certDashboard/CertDashboard.spec.js:25:8)]]></failure>
+    </testcase>
+    <testcase name="Certificate Dash End to End Testing Search functionality" time="0.0000" classname="Search functionality">
+      <failure message="Timed out retrying: Expected to find element: `div#app tr:nth-child(2) &gt; td:nth-child(5) &gt; div &gt; span:nth-child(1)`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `div#app tr:nth-child(2) > td:nth-child(5) > div > span:nth-child(1)`, but never found it.
+    at Context.eval (https://federatesys.intuit.com/__cypress/tests?p=cypress/integration/certDashboard/CertDashboard.spec.js:39:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

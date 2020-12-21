@@ -1,0 +1,9 @@
+{
+  "id": "partner-cert-dashboard",
+  "contacts": {
+    "dev": "CTO-DEV-ID&amp_ProfilePAuth-Dev@intuit.com"
+  },
+  "resource-dirs": ["src/nls"],
+  "url": "https://github.intuit.com/identity-connect/partner-cert-dashboard.git",
+  "enabled": false
+}

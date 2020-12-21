@@ -1,0 +1,28 @@
+{
+  "id": "partner-cert-dashboard",
+  "hasLayers": true,
+  "manifestVersion": "4",
+  "activator": "partner-cert-dashboard/js/widgets/certificateDashboard/service/Activator",
+  "extensions": {
+    "routes": [
+      {
+        "path": "partner-cert-dashboard/dashboard",
+        "accessLevel": "GUEST",
+        "widget": {
+          "id": "partner-cert-dashboard/dashboard",
+          "appScreen": "shell"
+        }
+      }
+    ]
+  },
+  "widgets": {
+    "partner-cert-dashboard/dashboard": {
+      "1.0.3": {
+        "descriptor": "partner-cert-dashboard/js/widgets/certificateDashboard/widget"
+      }
+    }
+  },
+  "dependencies": {
+    "widgets": ["partner-cert-dashboard/dashboard@1.0.3"]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "partner-cert-dashboard",
+  "private": true,
+  "description": "Powering Prosperity 🌎",
+  "version": "1.8.0",
+  "author": {
+    "name": "Intuit, Inc."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.intuit.com/identity-connect/partner-cert-dashboard.git"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "scripts": {
+    "align": "plugin-cli align",
+    "lint": "plugin-cli lint",
+    "build": "plugin-cli build",
+    "serve": "plugin-cli serve",
+    "remote-serve": "plugin-cli serve --remote",
+    "test": "plugin-cli test:jest && plugin-cli test:cypress",
+    "test:jest": "plugin-cli test:jest",
+    "test:cypress": "plugin-cli test:cypress",
+    "test:lighthouse": "plugin-cli test:lighthouse --verify",
+    "prerelease": "plugin-cli build -p",
+    "release": "plugin-cli release"
+  },
+  "dependencies": {
+    "@appfabric/web-shell-core": "3.6.0",
+    "@ids-beta/tooltip": "21.18.4",
+    "@ids/button": "21.8.14",
+    "@ids/dropdown": "21.9.0",
+    "@ids/switch": "13.6.3",
+    "@ids/theme": "21.8.6",
+    "axios": "0.21.0",
+    "axios-mock-adapter": "1.19.0",
+    "bootstrap": "4.5.3",
+    "jest": "26.6.3",
+    "js-cookie": "2.2.1",
+    "prop-types": "15.7.2",
+    "react": "16.8.6",
+    "react-bootstrap": "1.4.0",
+    "react-bootstrap-table": "4.3.1",
+    "react-bootstrap-table-next": "4.0.3",
+    "react-dom": "16.8.6",
+    "react-icons": "3.11.0",
+    "react-redux": "7.2.2",
+    "react-toastify": "6.2.0",
+    "redux": "4.0.5",
+    "styled-components": "4.4.1",
+    "uuid": "8.3.1"
+  },
+  "devDependencies": {
+    "@appfabric/dev-environment-generic": "1.4.1",
+    "@appfabric/eslint-config-appfabric": "1.14.0",
+    "@babel/core": "7.11.4",
+    "@babel/preset-env": "7.11.0",
+    "@babel/preset-react": "7.10.4",
+    "@commitlint/config-conventional": "8.3.4",
+    "babel-eslint": "10.1.0",
+    "commitlint": "8.3.5",
+    "cypress": "6.0.1",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.5",
+    "eslint": "6.8.0",
+    "eslint-plugin-chai-friendly": "0.4.1",
+    "eslint-plugin-cypress": "2.11.1",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jest": "22.21.0",
+    "eslint-plugin-jquery": "1.5.1",
+    "eslint-plugin-json": "1.4.0",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-react-hooks": "2.1.2",
+    "husky": "3.1.0",
+    "jest-styled-components": "6.3.4",
+    "lint-staged": "8.2.1",
+    "nyc": "15.1.0",
+    "prettier": "1.19.1",
+    "react-test-renderer": "16.8.6",
+    "wdio-coverage-reporter": "1.0.8"
+  },
+  "nyc": {
+    "extension": [
+      ".jsx",
+      ".js"
+    ],
+    "reporter": [
+      "lcov",
+      "json-summary",
+      "text",
+      "cobertura"
+    ],
+    "sourceMap": false,
+    "instrument": false
+  }
+}

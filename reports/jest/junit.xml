@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="49" failures="0" time="9.351">
+  <testsuite name="&lt;CertDashboard&gt; component" errors="0" failures="0" skipped="0" timestamp="2020-12-10T17:18:23" time="0.951" tests="9">
+    <testcase classname="&lt;CertDashboard&gt; component test CertDashboard on 401 - eventy query 1" name="&lt;CertDashboard&gt; component test CertDashboard on 401 - eventy query 1" time="0.01">
+    </testcase>
+    <testcase classname="&lt;CertDashboard&gt; component test CertDashboard on 401 - eventy query 2" name="&lt;CertDashboard&gt; component test CertDashboard on 401 - eventy query 2" time="0.002">
+    </testcase>
+    <testcase classname="&lt;CertDashboard&gt; component test CertDashboard on 401 - certificate query for expiring certificate" name="&lt;CertDashboard&gt; component test CertDashboard on 401 - certificate query for expiring certificate" time="0.001">
+    </testcase>
+    <testcase classname="&lt;CertDashboard&gt; component test CertDashboard on 401 - certificate query for renewal certificate" name="&lt;CertDashboard&gt; component test CertDashboard on 401 - certificate query for renewal certificate" time="0.002">
+    </testcase>
+    <testcase classname="&lt;CertDashboard&gt; component CertDashboard on success" name="&lt;CertDashboard&gt; component CertDashboard on success" time="0.002">
+    </testcase>
+    <testcase classname="&lt;CertDashboard&gt; component test filterRenewalDetails for UPDATE_PENDING" name="&lt;CertDashboard&gt; component test filterRenewalDetails for UPDATE_PENDING" time="0.002">
+    </testcase>
+    <testcase classname="&lt;CertDashboard&gt; component test filterRenewalDetails for UPDATE_COMPLETE with update pending " name="&lt;CertDashboard&gt; component test filterRenewalDetails for UPDATE_COMPLETE with update pending " time="0.002">
+    </testcase>
+    <testcase classname="&lt;CertDashboard&gt; component test filterRenewalDetails for UPDATE_COMPLETE with update completed " name="&lt;CertDashboard&gt; component test filterRenewalDetails for UPDATE_COMPLETE with update completed " time="0.001">
+    </testcase>
+    <testcase classname="&lt;CertDashboard&gt; component test filterRenewalDetails for ALL" name="&lt;CertDashboard&gt; component test filterRenewalDetails for ALL" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;CertDetails&gt; component" errors="0" failures="0" skipped="0" timestamp="2020-12-10T17:18:23" time="1.368" tests="6">
+    <testcase classname="&lt;CertDetails&gt; component CertDetails Show modal " name="&lt;CertDetails&gt; component CertDetails Show modal " time="0.018">
+    </testcase>
+    <testcase classname="&lt;CertDetails&gt; component StatusCard hide modal" name="&lt;CertDetails&gt; component StatusCard hide modal" time="0.003">
+    </testcase>
+    <testcase classname="&lt;CertDetails&gt; component DownloadCert on success" name="&lt;CertDetails&gt; component DownloadCert on success" time="0.006">
+    </testcase>
+    <testcase classname="&lt;CertDetails&gt; component DownloadCert on empty response" name="&lt;CertDetails&gt; component DownloadCert on empty response" time="0.004">
+    </testcase>
+    <testcase classname="&lt;CertDetails&gt; component DownloadCert on 401 error " name="&lt;CertDetails&gt; component DownloadCert on 401 error " time="0.003">
+    </testcase>
+    <testcase classname="&lt;CertDetails&gt; component Download public key of certificate on button click" name="&lt;CertDetails&gt; component Download public key of certificate on button click" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;StatusCardGroup&gt; component" errors="0" failures="0" skipped="0" timestamp="2020-12-10T17:18:23" time="1.726" tests="4">
+    <testcase classname="&lt;StatusCardGroup&gt; component Test StatusCardGroup component" name="&lt;StatusCardGroup&gt; component Test StatusCardGroup component" time="0.019">
+    </testcase>
+    <testcase classname="&lt;StatusCardGroup&gt; component Test StatusCardGroup component with pending events" name="&lt;StatusCardGroup&gt; component Test StatusCardGroup component with pending events" time="0.007">
+    </testcase>
+    <testcase classname="&lt;StatusCardGroup&gt; component test SideBarNavigation renderButton component" name="&lt;StatusCardGroup&gt; component test SideBarNavigation renderButton component" time="0.162">
+    </testcase>
+    <testcase classname="&lt;StatusCardGroup&gt; component test SideBarNavigation renderButton component" name="&lt;StatusCardGroup&gt; component test SideBarNavigation renderButton component" time="0.139">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;StatusCard&gt; component" errors="0" failures="0" skipped="0" timestamp="2020-12-10T17:18:23" time="1.852" tests="9">
+    <testcase classname="&lt;StatusCard&gt; component StatusCard show modal" name="&lt;StatusCard&gt; component StatusCard show modal" time="0.015">
+    </testcase>
+    <testcase classname="&lt;StatusCard&gt; component StatusCard hide modal" name="&lt;StatusCard&gt; component StatusCard hide modal" time="0.005">
+    </testcase>
+    <testcase classname="&lt;StatusCard&gt; component StatusCard show modal with missing expiry time in certificate details" name="&lt;StatusCard&gt; component StatusCard show modal with missing expiry time in certificate details" time="0.013">
+    </testcase>
+    <testcase classname="&lt;StatusCard&gt; component StatusCard show modal on 401 error" name="&lt;StatusCard&gt; component StatusCard show modal on 401 error" time="0.025">
+    </testcase>
+    <testcase classname="&lt;StatusCard&gt; component DownloadCert on success" name="&lt;StatusCard&gt; component DownloadCert on success" time="0.008">
+    </testcase>
+    <testcase classname="&lt;StatusCard&gt; component DownloadCert on empty response" name="&lt;StatusCard&gt; component DownloadCert on empty response" time="0.002">
+    </testcase>
+    <testcase classname="&lt;StatusCard&gt; component DownloadCert on 401 error " name="&lt;StatusCard&gt; component DownloadCert on 401 error " time="0.002">
+    </testcase>
+    <testcase classname="&lt;StatusCard&gt; component Show details of expiring certificate on button click" name="&lt;StatusCard&gt; component Show details of expiring certificate on button click" time="0.018">
+    </testcase>
+    <testcase classname="&lt;StatusCard&gt; component Download public key of expiring certificate on button click" name="&lt;StatusCard&gt; component Download public key of expiring certificate on button click" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;Tile&gt; component" errors="0" failures="0" skipped="0" timestamp="2020-12-10T17:18:25" time="0.198" tests="1">
+    <testcase classname="&lt;Tile&gt; component Tile component Enable Div" name="&lt;Tile&gt; component Tile component Enable Div" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;SideBarNavigation&gt; component" errors="0" failures="0" skipped="0" timestamp="2020-12-10T17:18:25" time="0.677" tests="5">
+    <testcase classname="&lt;SideBarNavigation&gt; component Navigate to Dashboard" name="&lt;SideBarNavigation&gt; component Navigate to Dashboard" time="0.004">
+    </testcase>
+    <testcase classname="&lt;SideBarNavigation&gt; component Navigate Search Tab" name="&lt;SideBarNavigation&gt; component Navigate Search Tab" time="0.002">
+    </testcase>
+    <testcase classname="&lt;SideBarNavigation&gt; component Default Navigation" name="&lt;SideBarNavigation&gt; component Default Navigation" time="0.001">
+    </testcase>
+    <testcase classname="&lt;SideBarNavigation&gt; component Dashboard Tab clicked" name="&lt;SideBarNavigation&gt; component Dashboard Tab clicked" time="0.009">
+    </testcase>
+    <testcase classname="&lt;SideBarNavigation&gt; component Search Tab clicked" name="&lt;SideBarNavigation&gt; component Search Tab clicked" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;TileGroup&gt; component" errors="0" failures="0" skipped="0" timestamp="2020-12-10T17:18:25" time="0.198" tests="1">
+    <testcase classname="&lt;TileGroup&gt; component Tile group render" name="&lt;TileGroup&gt; component Tile group render" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;Activator&gt; component" errors="0" failures="0" skipped="0" timestamp="2020-12-10T17:18:26" time="0.146" tests="2">
+    <testcase classname="&lt;Activator&gt; component Test Activator when env is specified" name="&lt;Activator&gt; component Test Activator when env is specified" time="0.001">
+    </testcase>
+    <testcase classname="&lt;Activator&gt; component Test Activator when env is not specified" name="&lt;Activator&gt; component Test Activator when env is not specified" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;Dashboard&gt; component" errors="0" failures="0" skipped="0" timestamp="2020-12-10T17:18:26" time="0.25" tests="1">
+    <testcase classname="&lt;Dashboard&gt; component SideBarNavigation component Enable Div" name="&lt;Dashboard&gt; component SideBarNavigation component Enable Div" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test SearchCertificate component" errors="0" failures="0" skipped="0" timestamp="2020-12-10T17:18:26" time="0.494" tests="8">
+    <testcase classname="Test SearchCertificate component Test SearchCertificate component with unknown filter" name="Test SearchCertificate component Test SearchCertificate component with unknown filter" time="0.006">
+    </testcase>
+    <testcase classname="Test SearchCertificate component Test SearchCertificate component with status filter" name="Test SearchCertificate component Test SearchCertificate component with status filter" time="0.007">
+    </testcase>
+    <testcase classname="Test SearchCertificate component Test SearchCertificate component with id filter" name="Test SearchCertificate component Test SearchCertificate component with id filter" time="0.003">
+    </testcase>
+    <testcase classname="Test SearchCertificate component Test SearchCertificate component with fiName filter" name="Test SearchCertificate component Test SearchCertificate component with fiName filter" time="0.005">
+    </testcase>
+    <testcase classname="Test SearchCertificate component Test SearchCertificate component with partnerUid filter" name="Test SearchCertificate component Test SearchCertificate component with partnerUid filter" time="0.005">
+    </testcase>
+    <testcase classname="Test SearchCertificate component Test SearchCertificate component with partnerUid filter on 401 error" name="Test SearchCertificate component Test SearchCertificate component with partnerUid filter on 401 error" time="0.002">
+    </testcase>
+    <testcase classname="Test SearchCertificate component Test SearchCertificate component with status filter for 401 error" name="Test SearchCertificate component Test SearchCertificate component with status filter for 401 error" time="0.002">
+    </testcase>
+    <testcase classname="Test SearchCertificate component Test modal close" name="Test SearchCertificate component Test modal close" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;Activator&gt; component" errors="0" failures="0" skipped="0" timestamp="2020-12-10T17:18:26" time="0.158" tests="3">
+    <testcase classname="&lt;Activator&gt; component Test getUUID" name="&lt;Activator&gt; component Test getUUID" time="0">
+    </testcase>
+    <testcase classname="&lt;Activator&gt; component Test generateUUID" name="&lt;Activator&gt; component Test generateUUID" time="0.001">
+    </testcase>
+    <testcase classname="&lt;Activator&gt; component Test setDateFormat" name="&lt;Activator&gt; component Test setDateFormat" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
